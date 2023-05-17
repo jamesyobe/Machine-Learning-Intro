@@ -14,7 +14,6 @@ import numpy
 import os
 
 os.system('cls')
-speed = [99, 86, 87, 88, 111, 86, 103, 87, 94, 78, 77, 85, 86]
 data = numpy.random.uniform(0.0, 5.0, 250)
 print(f'250 random floats between 0 and 5:  {data }')
 # Meaning that most of the values are within the range of 0.9 from the mean value, which is 89.769
