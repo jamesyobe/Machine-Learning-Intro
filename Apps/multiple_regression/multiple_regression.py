@@ -40,5 +40,4 @@ regr.fit(X.values, y)
 carWeight = input('Enter weight of a car: ')
 carVol = input('Enter volume of a car: ')
 predictedCO2 = regr.predict([[float(carWeight), float(carVol)]])
-print('For a car that weighs', carWeight, 'kgs  and has a volume of ',
-      carVol, 'cm3,its predicted CO2 emmission is', round(predictedCO2[0]))
+print(f'For a car that weighs {carWeight} kgs  and has a volume of {carVol} cm3, its predicted CO2 emmission is {round(predictedCO2[0])} grams of CO2 for every kilometer it drives.')
